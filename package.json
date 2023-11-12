@@ -1,0 +1,20 @@
+{
+  "name": "imdb-clone",
+  "version": "1.0.0",
+  "description": "imdb clone built with html css javascript\r first open vs code\r then create 3 files\r 1. index.html\r 2. style.css\r 3. script.js\r open the terminal and type npm init -y\r start writing code\r create head and body in html\r in that create necessary tags \r and then link your css and",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R-162/imdb-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R-162/imdb-clone/issues"
+  },
+  "homepage": "https://github.com/R-162/imdb-clone#readme"
+}

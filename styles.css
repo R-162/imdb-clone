@@ -1,0 +1,151 @@
+.img{
+    margin: auto;
+    padding: 0%;
+    margin-top: 10%;
+    background-image: url(./img/0.jpg);
+    overflow: hidden;
+    position: relative;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #f0e8e8;
+    text-align: center;
+    
+    
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: auto;
+    background: linear-gradient(orange,yellow);
+    color:rgb(22, 145, 211);
+    box-shadow: 2px 2px 4px 4px grey;
+    border-radius: 50px 50px 50px 50px;
+}
+
+header {
+    
+   
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+section {
+    width: auto;
+    height: auto;
+    background: linear-gradient( 90deg, #bb0101 , #000700 );
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.movie-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 15px;
+    display: contents;
+    justify-content: space-between;
+}
+
+.favorite-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#suggestions {
+    display: none;
+    position: absolute;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    display: block;
+    color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid skyblue;
+    text-align: center;
+    justify-content: center;
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+
+}
+
+.suggestion-item:hover {
+    background-color: rgb(161, 215, 236);
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
+.make0{
+    font-size: 2vw;
+    line-height: 4vh;
+    border-radius: 100%;
+}
+.make1{
+    text-align: center;
+    font-size: 90%;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px 4px grey;
+    border-radius: 20px;
+    background-color: grey;
+}
+.make1:hover{
+    font-family: cursive;
+    transform: scale(1.04);
+    transition: all .3s ease-in-out;
+    background-color:white;
+    color: rgb(73, 12, 29);
+    
+    }
+.make2{
+    font-size: 90%;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px 4px grey;
+    border-radius: 20px;
+    background-color: grey;
+    
+}
+.make2:hover{
+    font-family: cursive;
+    transform: scale(1.04);
+    transition: all .3s ease-in-out;
+    background-color:white;
+    color: #183318;
+    
+    }
